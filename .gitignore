@@ -1,0 +1,24 @@
+# Ignore anything called '.gitignore' in the tree, apart from the one in the root and in BES Integration archetype.
+**/.gitignore
+!/.gitignore
+
+# Ignore Maven generated files anywhere in the tree
+**/target/
+
+# Ignore Eclipse files anywhere in the tree
+**/.classpath
+**/.project
+**/.settings
+**/bin
+
+# Ignore IntelliJ IDEA files anywhere in the tree
+**/.idea
+**/*.iml
+
+# Ignore log files in the tree
+**/*.log
+
+.DS_Store
+
+.gradle
+build
